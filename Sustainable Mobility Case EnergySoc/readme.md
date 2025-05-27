@@ -1,82 +1,76 @@
-# Sustainable Mobility Case Competition
+# 🚗🏙️🌱 Sustainable Mobility Challenge 2025
+
+Design a tech-driven, low-emission urban mobility plan for a major Indian city by 2030/2040.
 
 ---
 
-## 🎯 Objective
-Design a comprehensive low-emission transport strategy for an Indian metro/urban city of your choice. Your plan should reduce CO₂ emissions, improve access, and promote clean modes of travel.
+## Background  
+Urban transport contributes ~12% of India’s CO₂ emissions and faces growing congestion and pollution. India’s climate commitments (45% emissions-intensity reduction by 2030, net-zero by 2070) demand bold, equitable mobility solutions. This challenge asks teams to develop a data-driven, tech-enabled strategy that shifts travel toward clean modes, electrifies vehicles, and fosters behavioral change.
 
 ---
 
-## 📌 Challenge
-- **Modal Shift**: Increase share of public & active modes (bus, metro, cycling, walking)  
-- **Electrification**: Accelerate EV uptake (2-wheelers, 3-wheelers, buses) with charger network  
-- **Policy & Pricing**: Propose reform (congestion charges, parking, fuel taxes, incentives)  
-- **Infrastructure**: Outline transit expansions, BRT/cycle lanes, depot & charger siting  
-- **Impact**: Quantify CO₂ reduction, ridership growth, and equity benefits
+## Objectives & Themes  
+1. **Modal Shift**  
+   - Boost public (bus, metro) and active (walk, cycle) mode share  
+   - Transit-oriented development, dedicated lanes, first/last-mile solutions  
+2. **Electrification**  
+   - Integrate EVs (2W, 3W, cars, buses) with renewable-powered charging  
+   - Plan network of chargers, grid upgrades, and incentives  
+3. **Smart Mobility & Data**  
+   - Use simulation (SUMO, MATSim) and GIS to model traffic flows  
+   - Apply AI/ML for demand forecasting and infrastructure siting  
+4. **Policy & Finance**  
+   - Propose congestion pricing, parking reform, TOD policies, and mobility bonds  
+   - Outline financing: public budgets, PPP, carbon credits  
+5. **Behavioral Change**  
+   - Design nudges, gamified apps, awareness campaigns targeting all demographics  
+6. **Impact Assessment**  
+   - Quantify CO₂ & PM₂.₅ reduction, ridership growth, equity gains  
+   - Provide cost–benefit analysis, NPV or marginal abatement cost curve  
 
 ---
 
-## 🌍 Scope
-- **Location**: Any Indian city (e.g. Bengaluru, Pune, Surat, Kolkata…)  
-- **Target Year**: Choose a horizon (e.g. 2030 or 2040)  
-- **Stakeholders**: City transport authority, state government, utilities, private operators, citizens  
-- **References**: MoHUA/NUTP, NITI Aayog EV guidelines, Census mode-share data
+## 5-Week Timeline
+
+| Week | Focus                                           | Deliverable                             |
+|:----:|-------------------------------------------------|-----------------------------------------|
+|  1   | Baseline Analysis (mode-share, emissions, access) | Baseline report + maps/charts           |
+|  2   | Vision & Scenarios; Model Prep                  | Scenario doc + simulation data package  |
+|  3   | Traffic & Emissions Simulation                  | Simulation results + analysis write-up  |
+|  4   | AI/ML Insights & Behavioral Strategy            | ML notebook + behavioral campaign plan  |
+|  5   | Policy, Finance & Final Report                  | Final report (8–12pp) + slide deck      |
 
 ---
 
-## 🔍 Timeline & Weekly Deliverables
-
-| Week | Focus                                      | Deliverable                               |
-|:----:|--------------------------------------------|-------------------------------------------|
-|  1   | City baseline & emissions profile          | `Week1_Report.pdf`                        |
-|  2   | Scenario & vision development              | Scenario briefs (1–2 pages each)          |
-|  3   | Quantitative modeling & estimate impacts   | Analysis report + infrastructure sketch   |
-|  4   | Policy packages & finance mechanisms       | Draft roadmap & policy matrix             |
-|  5   | Final integration & presentation           | Final report (8–12 pages) + slide deck    |
+## Final Deliverables (Week 5)  
+- **Comprehensive Report (PDF):** 8–12 pages covering all components  
+- **Presentation Deck:** 6–8 slides summarizing your strategy  
+- **Data & Code:** Simulation files, ML notebooks, GIS maps  
+- **Optional Bonus:** Interactive dashboard, app mock-up, video demo
 
 ---
 
-## 📝 Final Deliverables (Week 5)
-1. **Report** (8–12 pages)  
-   - Executive summary  
-   - City context & baseline  
-   - Vision & scenarios  
-   - Technical & policy interventions  
-   - Quantified impacts (CO₂, ridership, equity)  
-   - Implementation roadmap & stakeholder roles  
-2. **Presentation** (6–8 slides)  
-   - Concise summary of strategy, key metrics, and call to action  
-
----
-
-## ⚖️ Evaluation Criteria
+## Evaluation Criteria
 
 | Criterion                        | Weight |
 |----------------------------------|:------:|
-| Innovation & Feasibility         | 25%    |
-| Emission Reduction Impact        | 20%    |
-| Equity & Accessibility           | 15%    |
-| Policy & Regulatory Design       | 15%    |
-| Technical & Infrastructure Plan  | 15%    |
+| Understanding & Data Quality     | 20%    |
+| Innovation & Practicality        | 20%    |
+| Technical Rigor (Modeling/ML)    | 25%    |
+| Feasibility & Impact             | 25%    |
 | Clarity & Presentation           | 10%    |
 
 ---
 
-## 📚 Resources
-- **Data & Reports**  
-  - Census of India “Mode of Travel to Work”  
-  - MoHUA Urban Transport Yearbook & Master Plans  
-  - NITI Aayog EV Charging Handbook  
-- **Emission Factors & Tools**  
-  - TERI GH₂ Calculator  
-  - ICCT India Transport Data  
-  - IPCC GHG Guidelines  
-- **Policy Frameworks**  
-  - National Urban Transport Policy (NUTP)  
-  - FAME & State EV Policies  
-  - Smart Cities Mission guidelines  
+## Suggested Tools & Data Sources  
+- **Simulation:** SUMO, MATSim, PTV Vissim  
+- **ML & Analytics:** Python (pandas, scikit-learn, TensorFlow), R  
+- **GIS & Mapping:** QGIS, ArcGIS, OpenStreetMap  
+- **Data:**  
+  - Census of India (mode of travel, population)  
+  - MoRTH & MoHUA transport stats  
+  - IPCC/TERI/ICCT emission factors  
+  - National EV guidelines (NITI Aayog, FAME)  
+  - City transit data & OpenStreetMap network
 
----
-
-Good luck! We look forward to your data-driven, equity-focused, low-carbon transport solutions.  
-
+Teams are encouraged to be creative, data-driven, and equity-focused. Good luck!  
